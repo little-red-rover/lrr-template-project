@@ -1,0 +1,3 @@
+[submodule "lrr-ros"]
+	path = lrr-ros
+	url = git@github.com:little-red-rover/lrr-ros.git
