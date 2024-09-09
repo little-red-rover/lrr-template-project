@@ -1,7 +1,3 @@
-[submodule "lrr-ros"]
-	path = src/lrr-ros
-	url = git@github.com:little-red-rover/lrr-ros.git
-    branch = noetic
 [submodule "src/lrr-ros"]
 	path = src/lrr-ros
 	url = git@github.com:little-red-rover/lrr-ros.git
