@@ -1,0 +1,15 @@
+services:
+    template_workspace:
+        image: ros_workspace
+        build:
+            context: ..
+            dockerfile: docker/ros_workspace.Dockerfile
+        tty: true # Prevent immediate exit when running with dev containers
+        volumes:
+            - ../template_pkg:/template_ws/src/template_pkg
+            - ../lrr-ros/tools:/tools
+        ports:
+            - "9002:9002" # gzweb
+            - "9090:9090" # rosbridge
+            - "8001:8001/udp" # agent -> rover
+            - "8765:8765" # foxglove bridge
