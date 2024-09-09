@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!-- Fill out your package information here -->
 <package format="2">
-  <name>template_pkg</name>
+  <name>example_pkg</name>
   <version>0.0.0</version>
-  <description>The template_pkg package</description>
+  <description>The example_pkg package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

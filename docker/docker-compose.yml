@@ -6,7 +6,7 @@ services:
             dockerfile: docker/ros_workspace.Dockerfile
         tty: true # Prevent immediate exit when running with dev containers
         volumes:
-            - ../src:/src
+            - ../src:lrr_ros_ws/src
             - ../lrr-ros/tools:/tools
         ports:
             - "9002:9002" # gzweb

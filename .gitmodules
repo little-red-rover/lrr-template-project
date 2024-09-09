@@ -1,4 +1,4 @@
 [submodule "lrr-ros"]
-	path = lrr-ros
+	path = src/lrr-ros
 	url = git@github.com:little-red-rover/lrr-ros.git
     branch = noetic
