@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!-- Fill out your package information here -->
 <package format="2">
   <name>template_pkg</name>
   <version>0.0.0</version>

@@ -1,0 +1,5 @@
+<launch> 
+    <!-- Include teleop from lrr -->
+    <include file="$(find little_red_rover)/launch/teleop.launch"/>
+    <!-- <node name="example_script" pkg="template_pkg" type="example_script.py" output="screen"/> -->
+</launch>
